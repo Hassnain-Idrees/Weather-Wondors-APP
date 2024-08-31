@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #222 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone-container {
+    width: 410px; /* iPhone width in portrait mode */
+    height: 884px; /* iPhone height in portrait mode */
+    background-image: url(ehhvzjdx1s091.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.myLocatiom{
+    margin-left: 100px;
+}
+.secondSection a{
+    text-decoration: none;
+}
+.weatherTime{
+    border: 1px solid black;
+    border-radius: 23px;
+    background: transparent;
+}
+
+.forecast{
+    border: 1px solid black;
+    border-radius: 23px;
+    background: transparent;
+}
+
+.hrClass{
+    margin: 0;
+}
+
+.lighter-text {
+    color: rgba(255, 255, 255, 0.7); /* Grey color with alpha for transparency */
+    font-weight: lighter;
+}
+
+.bgCol{
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Darker color with alpha for transparency */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border */
+    border-radius: 23px;
+}
+
+.sumriseCol{
+    background-color: rgba(0, 0, 0, 0.5); /* Darker color with alpha for transparency */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border */
+    border-radius: 23px;
+    position: relative;
+}
+
+
+
+.bgCol p{
+    margin-bottom: 0;
+}
+
+.sunImg{
+    width: auto;
+    height: 23px;
+}
+
+.vectorImg{
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+}
+
+
+
+/* Media Query for landscape mode if needed */
+@media (max-width: 667px) {
+    .iphone-container {
+        width: 100%; /* Adjust as needed for landscape mode */
+        height: 375px; /* Adjust as needed for landscape mode */
+    }
+}
+.icon1{
+    color: white;
+    font-size: x-large;
+    margin-top:45px;
+    margin-left: 359px;
+}
+.icon2{
+    color: white;
+    font-size: x-large;
+    margin-top:43px;
+    margin-left: 359px;
+}
+.icon_dot{
+    color: rgba(255, 255, 255, 0);
+    font-size: xx-small;
+    margin-top:765px;
+    margin-left: -50px;
+}
+.icon3{
+    color: white;
+    font-size: x-large;
+    margin-top: -12px;
+    margin-left: 359px;
+}
+

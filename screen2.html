@@ -1,0 +1,184 @@
+
+<!-- screen2.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iphone-container">
+        <div class="weatherInfo">
+            <div class="container">
+                <h2 class="text-light myLocatiom" style="margin-top: 73px;">My Location</h2>
+                <h5 class="text-light fs-12" style="margin-left: 140px;"><span id="cityName"></span></h5>
+                <div class="altitudes d-flex align-items-center justify-content-center">
+                    <h3 class="text-light fw-medium"><span id="temp"></span>° |</h3>
+                    <h3 class="text-light fw-medium" style="margin-left: 13px;">Sunny </h3>
+                </div>
+            </div>
+        </div>
+        <div class="forecast mt-4 m-3">
+            <div class="container">
+                <div class="row mb-2">
+                    <p class="lighter-text " style="text-align: center;">10-DAY FORECAST</p>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <a href="screen3.html">
+                        <div class="day d-flex align-items-start justify-content-center">
+                            <h3 class="text-light fw-semibold mt-3" style="font-size:large;">Wed</h3>
+                            <img src="images/rain.png" width="53px" height="53px" alt="">
+                            <h3 class="text-light fw-semibold mt-3" style="font-size:large;">13°</h3>
+                            <img src="images/loading_bar2.png" class="mt-4" alt="">
+                            <h3 class="text-light fw-semibold mt-3" style="font-size:large;">23°</h3>
+                        </div>
+                   
+                </div>
+                <!-- Repeat similar blocks for other days -->
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Thu
+                        </h3>
+                        <img src="images/clouds.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            17°
+                        </h3>
+                        <img src="images/loading_bar3.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            20°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Fri
+                        </h3>
+                        <img src="images/mist.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            21°
+                        </h3>
+                        <img src="images/loading_bar4.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            25°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Sat
+                        </h3>
+                        <img src="images/rain.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            27°
+                        </h3>
+                        <img src="images/loading_bar1.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            30°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Sun
+                        </h3>
+                        <img src="images/rain.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            15°
+                        </h3>
+                        <img src="images/loading_bar2.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            23°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Mon
+                        </h3>
+                        <img src="images/clear.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            21°
+                        </h3>
+                        <img src="images/loading_bar4.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            29°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Tue
+                        </h3>
+                        <img src="images/snow.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            27°
+                        </h3>
+                        <img src="images/loading_bar3.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            31°
+                        </h3>
+                    </div>
+                </div>
+                <hr class="text-white hrClass">
+                <div class="row mt-2">
+                    <div class="day d-flex align-items-start justify-content-center">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            Wed
+                        </h3>
+                        <img src="images/snow.png" width="53px" height="53px" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            23°
+                        </h3>
+                        <img src="images/loading_bar1.png" class="mt-4" alt="">
+                        <h3 class="text-light fw-semibold mt-3" style="font-size:large;">
+                            29°
+                        </h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <a href="http://127.0.0.1:5500/index1.html">
+        <div  class="icon2">
+            <i class="fa-solid fa-list-ul"></i>
+        </div>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the searched city and temperature from localStorage
+            const cityName = localStorage.getItem('searchedCity') || 'Lahore';
+            const temp = localStorage.getItem('searchedTemp') || '25';
+
+            // Update HTML elements with city name and temperature
+            document.getElementById('cityName').textContent = cityName;
+            document.getElementById('temp').textContent = temp;
+        });
+    </script>
+    
+</body>
+</html>

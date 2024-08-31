@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alike', sans-serif;
+
+}
+
+.iphone-container {
+    width: 357px; /* iPhone width in portrait mode */
+    height: 884px; /* iPhone height in portrait mode */
+    background-image: url(black.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.image1{
+margin-top: 15px;
+margin-left: 315px;
+}
+.heading{
+ font-size: 26px;
+ margin-left: 12px;
+ color: #ffff;
+}
+.search-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+  }
+
+  .search-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+  }
+  
+
+  /* Style for the input box */
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    outline: none;  
+    background-color: #222;
+    color: #ccc;
+  }
+
+  /* Style for the search icon */
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right:  10px;
+    transform: translateY(-50%);
+    color: #666;
+    cursor: pointer;
+  }
+  .image2{
+    margin-left: 12px;
+    margin-top: 5px;
+    
+  }
+  .other_city{
+    position: absolute;
+    margin-left: 11px;
+    margin-right: 10px;
+    margin-top: 5px;
+    max-width: 340px;
+  }
+.bar{
+  position: absolute;
+  margin-left: 56px;
+  margin-right: 10px;
+  margin-top: 320px;
+  max-width: 250px;
+}
+  .degree{
+    margin-left: 265px;
+    margin-top: 12px;
+    position: absolute;
+    color: #ffffffda;
+    font-size: 47px;
+    font-family: 'Alike', serif;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .text{
+    position: absolute;
+    margin-top: 92px;
+    font-size: small;
+    margin-left: 26px;
+    color: #ffffffa4;
+  }
